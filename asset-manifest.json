@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nom-appetit/static/css/main.073c9b0a.css",
+    "main.js": "/nom-appetit/static/js/main.71314265.js",
+    "static/js/787.7ccfb14e.chunk.js": "/nom-appetit/static/js/787.7ccfb14e.chunk.js",
+    "static/media/logo.svg": "/nom-appetit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nom-appetit/index.html",
+    "main.073c9b0a.css.map": "/nom-appetit/static/css/main.073c9b0a.css.map",
+    "main.71314265.js.map": "/nom-appetit/static/js/main.71314265.js.map",
+    "787.7ccfb14e.chunk.js.map": "/nom-appetit/static/js/787.7ccfb14e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.71314265.js"
+  ]
+}
