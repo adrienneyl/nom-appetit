@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Oduda';
+  src: url('./assets/Oduda-Bold-Demo.otf') format('embedded-opentype'),      /* Internet Explorer */
+    url('./assets/Oduda-Bold-Demo.otf') format('woff2'),                     /* Super Modern Browsers */
+    url('./assets/Oduda-Bold-Demo.otf') format('woff'),                      /* Pretty Modern Browsers */
+    url('./assets/Oduda-Bold-Demo.otf') format('truetype'),                  /* Safari, Android, iOS */
+    url('./assets/Oduda-Bold-Demo.otf') format('svg');                       /* Legacy iOS */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*--------- Variables ----------*/
+:root {
+  /* Colors */
+  --light-main-yellow: #FFC145;
+  --light-fade-yellow: #FED766;
+  --light-white: #FFFFFF;
+  --light-eggshell: #F4F4F8;
+
+  /* Fonts */
+  --body-font: 'Oduda', sans-serif;
+}
+
+/*--------- Global ----------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }

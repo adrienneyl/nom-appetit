@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Oduda';
+    src: url('./../../assets/Oduda-Bold-Demo.otf') format('embedded-opentype'), /* Internet Explorer */
+         url('./../../assets/Oduda-Bold-Demo.otf') format('woff2'),             /* Super Modern Browsers */
+         url('./../../assets/Oduda-Bold-Demo.otf') format('woff'),              /* Pretty Modern Browsers */
+         url('./../../assets/Oduda-Bold-Demo.otf') format('truetype'),          /* Safari, Android, iOS */
+         url('./../../assets/Oduda-Bold-Demo.otf') format('svg');               /* Legacy iOS */
+}
+
+p {
+    font-family: var(--body-font);
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    color: var(--light-main-yellow);
+}
+
+/* ADJUST FOR DIFFERENT VIEW SIZES CAUSE IT PUSHES THINGS TOO FAR DOWN*/
+.text-container {
+    padding-top: 11.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.startbutton {
+    font-family: var(--body-font);
+    text-decoration: none;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+
+    border: none;
+    background-color: var(--light-main-yellow);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+}
+
+.letseat {
+    color: var(--light-white);
+    text-decoration: none;
+}
+
+.table-container {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+.table-container img {
+    width: 100%;
+}
