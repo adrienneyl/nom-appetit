@@ -53,24 +53,6 @@ function Find() {
                 </div>
             </div>
         )
-    } else if (progress === "loading") {
-        return (
-            <div>
-                <p>loading</p>
-                <div class="table-container">
-                    <img src={Table}></img>
-                </div>
-            </div>
-        )
-    } else if (progress === "results") { 
-        return (
-            <div>
-                <p>results</p>
-                <div class="table-container">
-                    <img src={Table}></img>
-                </div>
-            </div>
-        )
     }
 }
 

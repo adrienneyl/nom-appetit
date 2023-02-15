@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Find from './components/find/Find';
 import About from './components/about/About';
+import Result from './components/result/Result';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={ <Home /> }></Route>
         <Route path="/find" element= { <Find /> }></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/result" element={<Result />}></Route>
       </Routes>
     </>
   );

@@ -12,20 +12,20 @@ function Meal({ handleCallback }) {
     return (
         <div class="meal-container">
             <div class="meal-text">
-                <p class="subtitle">let's start!</p>
-                <p class="title">what are we eating?</p>
+                <p class="meal-subtitle">let's start!</p>
+                <p class="meal-title">what are we eating?</p>
             </div>
             <div class="button-container">
                 <div class="row-one">
-                    <button>breakfast</button>
-                    <button>brunch</button>
-                    <button>lunch</button>
-                    <button>dinner</button>
+                    <button class="left">breakfast</button>
+                    <button class="middle">brunch</button>
+                    <button class="middle">lunch</button>
+                    <button class="right">dinner</button>
                 </div>
                 <div class="row-two">
-                    <button>dessert</button>
-                    <button>snack</button>
-                    <button>drinks</button>
+                    <button class="left">dessert</button>
+                    <button class="middle">snack</button>
+                    <button class="right">drinks</button>
                 </div>
             </div>
             <div class="next-button">
