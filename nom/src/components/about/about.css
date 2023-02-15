@@ -1,7 +1,7 @@
 .title-container {
     display: flex;
     justify-content: center;
-    padding-top: 4rem;
+    padding-top: 3.85rem;
 }
 
 .title-container p {
@@ -12,7 +12,7 @@
 .column-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 4rem;
+    padding-top: 3.25rem;
 }
 
 .image {
