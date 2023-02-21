@@ -1,5 +1,5 @@
 .cuisine-container {
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 .cuisine-title {
@@ -14,16 +14,14 @@
     letter-spacing: 0.2rem;
     display: flex;
     justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.cuisine-button-container {
     padding-top: 2rem;
 }
 
-.nothing-button {
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
-
-.nothing-button button {
+.cuisine-button-container  button {
     font-family: var(--body-font);
     text-decoration: none;
     font-size: 1.75rem;
@@ -38,4 +36,38 @@
     border-radius: 40px;
     color: var(--light-white);
     text-decoration: none;
+}
+
+.cuisine-button-container button:hover {
+    cursor: pointer;
+}
+
+.cuisine-row-one {
+    display: flex;
+    justify-content: center;
+}
+
+.cuisine-row-two {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cuisine-row-three {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 0.75rem;
+}
+
+.middle {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.right {
+    margin-left: 0.75rem;
 }

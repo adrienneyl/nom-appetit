@@ -18,3 +18,9 @@
     letter-spacing: 0.2rem;
     color: var(--light-main-yellow);
 }
+
+.links:hover {
+    cursor: pointer;
+    transition: 0.125s;
+    color: var(--light-egg-yolk);
+}

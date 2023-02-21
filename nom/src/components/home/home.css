@@ -44,6 +44,12 @@ p {
     border-radius: 40px;
 }
 
+.startbutton:hover {
+    cursor: pointer;
+    transition: 0.125s;
+    background-color: var(--light-egg-yolk);
+}
+
 .letseat {
     color: var(--light-white);
     text-decoration: none;

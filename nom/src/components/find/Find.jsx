@@ -12,6 +12,10 @@ import Location from './location/Location';
 function Find() {
 
     const [progress, setProgress] = useState("meal");
+    const [meal, setMeal] = useState("");
+    const [cuisine, setCuisine] = useState("");
+    const [dietary, setDietary] = useState("");
+    const [location, setLocation] = useState("");
 
     function handleCallback(payload) {
         setProgress(payload);
@@ -20,7 +24,7 @@ function Find() {
     if (progress === "meal") {
         return (
             <div>
-                <Meal handleCallback={handleCallback}/>
+                <Meal handleCallback={handleCallback} meal={meal} setMeal={setMeal} />
                 <div class="table-container">
                     <img src={Table}></img>
                 </div>
@@ -29,7 +33,7 @@ function Find() {
     } else if (progress === "cuisine") {
         return (
             <div>
-                <Cuisine handleCallback={handleCallback}/>
+                <Cuisine handleCallback={handleCallback} meal={meal} setCuisine={setCuisine} />
                 <div class="table-container">
                     <img src={Table}></img>
                 </div>
@@ -38,7 +42,7 @@ function Find() {
     } else if (progress === "dietary") {
         return (
             <div>
-                <Dietary handleCallback={handleCallback} />
+                <Dietary handleCallback={handleCallback} setDietary={setDietary} />
                 <div class="table-container">
                     <img src={Table}></img>
                 </div>
@@ -47,7 +51,7 @@ function Find() {
     } else if (progress === "location") { 
         return (
             <div>
-                <Location handleCallback={handleCallback} />
+                <Location handleCallback={handleCallback} setLocation={setLocation} />
                 <div class="table-container">
                     <img src={Table}></img>
                 </div>

@@ -1,5 +1,5 @@
 .meal-container {
-    padding-top: 5.5rem;
+    padding-top: 4.5rem;
 }
 
 .meal-subtitle {
@@ -15,6 +15,14 @@
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
+}
+
+.meal-footnote {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
 }
 
 .button-container {
@@ -45,29 +53,55 @@
     margin-left: 0.75rem;
 }
 
-.button-container button {
-        font-family: var(--body-font);
-        text-decoration: none;
-        font-size: 1.75rem;
-        letter-spacing: 0.2rem;
+.button-active {
+    font-family: var(--body-font);
+    text-decoration: none;
+    font-size: 1.75rem;
+    letter-spacing: 0.2rem;
+
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
     
-        border: none;
-        background-color: var(--light-main-yellow);
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 40px;
-        color: var(--light-white);
-        text-decoration: none;
+    background-color: var(--light-egg-yolk);
+    color: var(--light-white);
+
 }
 
-.button-container button:hover {
+.button-inactive {
+    font-family: var(--body-font);
+    text-decoration: none;
+    font-size: 1.75rem;
+    letter-spacing: 0.2rem;
+
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+
+    background-color: var(--light-main-yellow);
+    color: var(--light-white);
+}
+
+.button-inactive:hover {
     cursor: pointer;
+    background-color: var(--light-egg-yolk);
+    transition: 0.125s;
 }
 
 .next-button {
-    padding-top: 3rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
 }
