@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nom-appetit/static/css/main.0002a920.css",
-    "main.js": "/nom-appetit/static/js/main.9e737648.js",
+    "main.js": "/nom-appetit/static/js/main.8c321dcc.js",
     "static/js/787.7ccfb14e.chunk.js": "/nom-appetit/static/js/787.7ccfb14e.chunk.js",
     "static/media/group-pic.jpg": "/nom-appetit/static/media/group-pic.006b84c86dddbedd89f0.jpg",
     "static/media/Oduda-Bold-Demo.otf": "/nom-appetit/static/media/Oduda-Bold-Demo.8b20f181fe6a689b116d.otf",
@@ -10,11 +10,11 @@
     "static/media/expand.svg": "/nom-appetit/static/media/expand.6b85141961c013baf40335aefd0d0832.svg",
     "static/media/table_asset.svg": "/nom-appetit/static/media/table_asset.bb080f14691c18df62809237e82257d9.svg",
     "main.0002a920.css.map": "/nom-appetit/static/css/main.0002a920.css.map",
-    "main.9e737648.js.map": "/nom-appetit/static/js/main.9e737648.js.map",
+    "main.8c321dcc.js.map": "/nom-appetit/static/js/main.8c321dcc.js.map",
     "787.7ccfb14e.chunk.js.map": "/nom-appetit/static/js/787.7ccfb14e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0002a920.css",
-    "static/js/main.9e737648.js"
+    "static/js/main.8c321dcc.js"
   ]
 }
