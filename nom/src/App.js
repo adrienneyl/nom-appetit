@@ -7,7 +7,7 @@ import Home from './components/home/Home';
 import Find from './components/find/Find';
 import About from './components/about/About';
 import Result from './components/result/Result';
-
+import Test from './components/test/Test';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path="/find" element= { <Find /> }></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/result" element={<Result />}></Route>
+        <Route path="/test" element={<Test />}></Route>
       </Routes>
     </>
   );
